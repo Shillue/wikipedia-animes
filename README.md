@@ -58,7 +58,7 @@ O site apresenta uma organização clara e funcional, com os seguintes elementos
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/seuusuario/wikipedia-animes.git
+   git clone https://github.com/Shillue/wikipedia-animes.git
     
 2. Abra o arquivo index.html com um navegador.
 3. Explore os menus laterais e o conteúdo central. Navegue entre as páginas pelo menu de animes.
