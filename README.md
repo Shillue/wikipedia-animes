@@ -52,6 +52,11 @@ O site apresenta uma organização clara e funcional, com os seguintes elementos
 ## 🌟 Pré-visualização
 ![Wikipedia Anime 1](https://github.com/user-attachments/assets/b4cace94-672b-4785-b647-bac211974ff5)
 
+### Links
+
+- Solution Site: [WikipediaAnimes](https://shillue.github.io/wikipedia-animes/).
+
+
 ---
 
 ## 🚀 Como Executar
