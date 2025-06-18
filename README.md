@@ -1,4 +1,4 @@
- # 🌟 Projeto: Wikipedia Animes
+ # 📚 Projeto: Wikipedia Animes
 
 Este projeto foi desenvolvido como parte do desafio **"Recriando o Wikipedia com Layout Moderno"** da [DIO](https://www.dio.me/). O foco do desafio é praticar a estruturação de páginas web, aplicando conceitos de HTML semântico e acessibilidade em um layout inspirado na Wikipedia, com um toque moderno.
 
@@ -46,6 +46,11 @@ O site apresenta uma organização clara e funcional, com os seguintes elementos
 - Inclusão de **conteúdo multimídia** (vídeos e imagens)
 - Uso de links internos e externos de forma acessível
 - Estruturação de menus laterais e âncoras para navegação fluida
+
+---
+
+## 🌟 Pré-visualização
+![Wikipedia Anime 1](https://github.com/user-attachments/assets/b4cace94-672b-4785-b647-bac211974ff5)
 
 ---
 
