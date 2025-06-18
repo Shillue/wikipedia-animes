@@ -1,0 +1,267 @@
+/*:root{
+    --color-background-header:#f4a6c8;
+    --color-background-bar:#d6a6f4;
+    --color-background-content:;
+    --color-background-anchors:;
+    --color-backgound-footer:;
+    --color-font-header:;
+    --color-font-bar:;
+    --color-font-content;;
+    --color-font-anchors;;
+}*/
+@import url('https://fonts.googleapis.com/css2?family=WDXL+Lubrifont+SC&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+      background-color: #a6c8f4;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.headerLogo{
+    width: 100%;
+    height: auto;
+    padding: 0.9rem;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    background-color: #f4a6c8;
+    box-shadow: 0 9px 6px -6px #38134f;
+    margin-bottom: 0.2rem;
+}
+
+.headerLogo figure.logo img{
+    width: 5.9rem;
+    margin: 0.1rem 1.5rem 0.1rem 1rem;
+    border-radius: 100%;
+    padding: 0.02rem;
+}
+
+.main__title{
+    color:#000001;
+    font-family: "WDXL Lubrifont SC", sans-serif;
+    font-weight: 400;
+    font-size: 3.5rem;
+}
+
+.container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    width: 100%;
+    
+    padding: 0.4rem;
+    margin: 0.03rem 0;
+}
+
+/*bar*/
+.container .bar{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    color: #1d1d30;
+}
+.bar .sidebar h2{
+    padding: 0.1rem;
+    margin: 3rem 0 1rem 0;
+    font-size: 1.6rem;
+    border-bottom: 3px dotted rgb(246, 92, 118);
+}
+
+.bar .sidebar ul li{
+    list-style: none;
+    margin-bottom: 0.5rem;
+}
+
+.bar .sidebar ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.2rem;  
+   
+}
+
+.bar .sidebar ul li a:hover {
+    color: rgb(246, 92, 118);
+    font-weight: 600; 
+    border-bottom: 3px dashed rgb(246, 92, 118);
+}
+
+/*Content*/
+.container .content{
+    width: 50%;
+    height: 100%;
+    color: rgb(4, 4, 4);
+    padding: 1rem;
+    background-color: #f4ebf0;
+    box-shadow: 0px 4px 20px  #5c3d91;
+    border-radius: 25px;
+}
+
+.content .title{
+    font-style: italic;
+    padding: 0.2rem;
+    margin: 0.4rem 0.9rem;
+    font-size: 1.8rem;
+    text-align: left;
+}
+
+.content .impact{
+    font-weight: bolder;
+}
+
+.content p{
+    text-align:left;
+    margin: 0.5rem 0.9rem;
+    padding: 0.1rem;
+    font-size: 1.1rem;
+}
+
+.content h3{
+    text-align: left;
+    padding: 0.2rem;
+    margin: 1rem 0.9rem;
+    font-size: 1.5rem;
+}
+
+.links{
+    text-decoration: none;
+    font-style: oblique;
+}
+.links:hover{
+    font-style:normal;
+}
+
+.image__anime{
+    margin: 0 2.5%;
+    width: 95%;
+    padding: 0.5rem 0;
+    border-radius: 10px;  
+}
+img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.image__anime figcaption{
+    font-style: italic;
+    font-size: 14px;
+    text-align: center;
+}
+
+.video__container {
+  position: relative;
+  padding-bottom: 56.25%;/*proporção 16:9*/
+  height: 0;
+  overflow: hidden;
+  max-width: 90%;
+  margin: 0.7rem auto;
+}
+
+.video__container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+#voltar__top {
+    background-color: #d6a6f4;
+    width: 40%;
+    margin: 2% 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow:0px 8px 15px #27123d;
+}
+
+#voltar__top a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #3c1e5d;
+    padding: 10px 0;
+    border-radius: 20px;
+    transition: background-color 0.3s ease-in-out, color 0.3s;
+}
+
+#voltar__top a:hover {
+    background-color: #3c1e5d; 
+    color: #ffffff;
+    box-shadow:0px 8px 15px #b65ded;
+}
+
+/*Anchors*/
+.container .anchors{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    color: #1d1d30;
+}
+
+.anchors .anchors__nav h2{
+    padding: 0.1rem;
+    margin: 3rem 0 1rem 0;
+    font-size: 1.6rem;
+    border-bottom: 3px dotted rgb(246, 92, 118);
+}
+
+.anchors .anchors__nav ul li{
+    list-style: none;
+    margin-bottom: 0.5rem;
+}
+
+.anchors .anchors__nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.2rem;  
+}
+
+.anchors .anchors__nav ul li a:hover{
+    color: rgb(246, 92, 118);
+    font-weight: 600; 
+    border-bottom: 3px dashed rgb(246, 92, 118);
+}
+
+/*Footer*/
+footer{
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    padding: 0.2rem;
+    background-color: #5c3d91;
+    color: white;
+    margin-top: 1rem;
+    box-shadow: 0 -9px 6px -6px #38134f;
+}
+
+footer p{
+    padding: 20px;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: #a6c8f4;
+}
+footer a:hover{
+    color: rgb(211, 150, 160);
+    font-weight: 600;
+}
