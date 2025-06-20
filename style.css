@@ -50,8 +50,8 @@ html, body{
     margin: 0.03rem 0;
 }
 
-/*bar*/
-.container .bar{
+/*bar and anchors*/
+.container .bar, .container .anchors{
     width: 25%;
     height: 100%;
     display: flex;
@@ -59,28 +59,40 @@ html, body{
     justify-content: center;
     color: #1d1d30;
 }
-.bar .sidebar h2{
+.bar .sidebar h2, .anchors .anchors__nav h2{
     padding: 0.1rem;
     margin: 3rem 0 1rem 0;
     font-size: 1.6rem;
     border-bottom: 3px dotted rgb(246, 92, 118);
 }
 
-.bar .sidebar ul li{
+.bar .sidebar ul li, .anchors .anchors__nav ul li{
     list-style: none;
     margin-bottom: 0.5rem;
 }
 
-.bar .sidebar ul li a {
+.bar .sidebar ul li a, .anchors .anchors__nav ul li a{
     color: black;
     text-decoration: none;
     font-size: 1.2rem;  
    
 }
 
-.bar .sidebar ul li a:hover {
+.bar .sidebar ul li a:hover, .anchors .anchors__nav ul li a:hover{
     color: rgb(246, 92, 118);
     font-weight: 600; 
+    border-bottom: 3px dashed rgb(246, 92, 118);
+}
+
+/*main page*/
+.bar .sidebar a[title="page"] {
+    font-weight: 600; 
+    color: #c270f4;
+    border-bottom:3px dashed #c270f4;
+}
+
+.bar .sidebar a[title="page"]:hover{
+    color: rgb(246, 92, 118);
     border-bottom: 3px dashed rgb(246, 92, 118);
 }
 
@@ -192,40 +204,6 @@ img{
     background-color: #3c1e5d; 
     color: #ffffff;
     box-shadow:0px 8px 15px #b65ded;
-}
-
-/*Anchors*/
-.container .anchors{
-    width: 25%;
-    height: 100%;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    color: #1d1d30;
-}
-
-.anchors .anchors__nav h2{
-    padding: 0.1rem;
-    margin: 3rem 0 1rem 0;
-    font-size: 1.6rem;
-    border-bottom: 3px dotted rgb(246, 92, 118);
-}
-
-.anchors .anchors__nav ul li{
-    list-style: none;
-    margin-bottom: 0.5rem;
-}
-
-.anchors .anchors__nav ul li a{
-    color: black;
-    text-decoration: none;
-    font-size: 1.2rem;  
-}
-
-.anchors .anchors__nav ul li a:hover{
-    color: rgb(246, 92, 118);
-    font-weight: 600; 
-    border-bottom: 3px dashed rgb(246, 92, 118);
 }
 
 /*Footer*/
