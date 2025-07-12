@@ -10,17 +10,17 @@ html, body{
     width: 100%;
     display: flex;
     flex-direction: column;
-      background-color: #a6c8f4;
+    background-color: #a6c8f4;
     font-family: 'Times New Roman', Times, serif;
 }
 
 .headerLogo{
-    width: 100%;
-    height: auto;
-    padding: 0.9rem;
     display: flex;
     align-items: center;
     justify-content:flex-start;
+    width: 100%;
+    height: auto;
+    padding: 0.9rem;
     background-color: #f4a6c8;
     box-shadow: 0 9px 6px -6px #38134f;
     margin-bottom: 0.2rem;
@@ -45,20 +45,20 @@ html, body{
     align-items: flex-start;
     justify-content: space-evenly;
     width: 100%;
-    
     padding: 0.4rem;
     margin: 0.03rem 0;
 }
 
 /*bar and anchors*/
 .container .bar, .container .anchors{
-    width: 25%;
-    height: 100%;
     display: flex;
     align-items: flex-start;
     justify-content: center;
+    width: 25%;
+    height: 100%;
     color: #1d1d30;
 }
+
 .bar .sidebar h2, .anchors .anchors__nav h2{
     padding: 0.1rem;
     margin: 3rem 0 1rem 0;
@@ -75,7 +75,6 @@ html, body{
     color: black;
     text-decoration: none;
     font-size: 1.2rem;  
-   
 }
 
 .bar .sidebar ul li a:hover, .anchors .anchors__nav ul li a:hover{
@@ -137,6 +136,7 @@ html, body{
     text-decoration: none;
     font-style: oblique;
 }
+
 .links:hover{
     font-style:normal;
 }
@@ -147,6 +147,7 @@ html, body{
     padding: 0.5rem 0;
     border-radius: 10px;  
 }
+
 img{
     width: 100%;
     border-radius: 10px;
@@ -179,23 +180,20 @@ img{
 #voltar__top {
     background-color: #d6a6f4;
     width: 40%;
-    margin: 2% 30%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin: 1rem auto;
+    text-align: center;
     border-radius: 20px;
     box-shadow:0px 8px 15px #27123d;
 }
 
 #voltar__top a {
     display: block;
-    width: 100%;
-    text-align: center;
     text-decoration: none;
+    padding: 10px;
+    width: 100%;
     font-size: 1.3rem;
     font-weight: 600;
     color: #3c1e5d;
-    padding: 10px 0;
     border-radius: 20px;
     transition: background-color 0.3s ease-in-out, color 0.3s;
 }
@@ -228,6 +226,7 @@ footer a{
     text-decoration: none;
     color: #a6c8f4;
 }
+
 footer a:hover{
     color: rgb(211, 150, 160);
     font-weight: 600;
